@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/">
+      </ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Avatar</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="https://i.pinimg.com/originals/40/81/f6/4081f63fbbb7f9841bde7f0060af5213.jpg">
+      </ion-avatar>
+    </ion-buttons>
+
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-chip color="primary" *ngFor="let i of [1,1,1,1]">
+    <ion-avatar>
+      <img src="https://i.pinimg.com/originals/40/81/f6/4081f63fbbb7f9841bde7f0060af5213.jpg">
+    </ion-avatar>
+    <ion-label> Ninushka </ion-label>
+  </ion-chip>
+
+  <ion-list>
+    <ion-item *ngFor="let i of [1,1,1,1,1,1,1,1,1]">
+
+      <ion-avatar slot="start">
+        <img src="https://i.pinimg.com/originals/40/81/f6/4081f63fbbb7f9841bde7f0060af5213.jpg">
+      </ion-avatar>
+      <ion-label> Ninushka </ion-label>
+
+    </ion-item>
+  </ion-list>
+
+</ion-content>
